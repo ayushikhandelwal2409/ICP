@@ -19,3 +19,8 @@ public class kth_largest_element {
         return minHeap.peek();
     }
 }
+
+//sc=>O(k)
+//because of priority queue of size k
+//tc=>O(n.log k)
+//doing push and pop operation in heap of size k for the array of size n
