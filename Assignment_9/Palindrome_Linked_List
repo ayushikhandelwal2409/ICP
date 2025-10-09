@@ -14,7 +14,7 @@ public class Palindrome_Linked_List {
             fast = fast.next.next;
         }
 
-        ListNode secondHalf = reverseList(slow);
+        ListNode secondHalf = reverseList(slow.next);
 
         ListNode firstHalf = head;
         ListNode temp = secondHalf;
@@ -67,4 +67,5 @@ public class Palindrome_Linked_List {
 }
 
 //tc: O(n)
+
 //sc: O(1)
